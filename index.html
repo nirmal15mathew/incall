@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Incall</title>
+  </head>
+  <body>
+    <div class="videos">
+      <span>
+        <video id="webcamVideo" autoplay playsinline></video>
+      </span>
+      <span>
+        <video id="remoteVideo" autoplay playsinline></video>
+      </span>
+
+
+    </div>
+
+    <button id="webcamButton">Start webcam</button>
+    <button id="callButton" disabled>Start Call</button>
+    
+    <input id="callInput" placeholder="Paste code here"/>
+    <button id="answerButton" disabled>Answer</button>
+
+    <button id="hangupButton" disabled>Hangup</button>
+
+    <script type="module" src="/main.js"></script>
+
+  </body>
+</html>
